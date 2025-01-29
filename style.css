@@ -1,11 +1,82 @@
-body {
+/* all */
+* {
     margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(247, 243, 243);
+}
+/* header */
+.logo {
+    background-color: rgb(350, 350, 350); 
+    background-color: #ff6f61;
+    font-family: 'sans-serif'; 
+    padding-right: 15px; 
+    margin: 0px 0px 30px 0px;
+}
+
+.flexV-center {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    color: #fff;
+    font-size: 1;
+    font-weight: 300;
+    outline: 0;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+.button-box {
+    display: flex;
+    width: 209px;
+    margin: 2px auto;
+    position: absolute;
+    box-shadow: 0 0 20px 9px #6b5b9b69;
+    border-radius: 30px;
+    right: 430px;
+}
+
+.button-box {
+    top: 10px;
+    
+}
+.toggle-bttn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #f7cac9, #92a8d1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+/* search bar */
+.search-container {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: #ff6f61;
 }
 
 .search {
-    width: 450px;
-    height: 20px;
-    margin: 80px 0px 0px 650px;
+    width: 600px;
+    height: 13px;
+    margin: 55px 0px 0px 650px;
     display: flex;
     align-items: center;
     padding: 16px;
@@ -34,15 +105,39 @@ body {
     color: rgba(0, 0, 0, 0.5);
 
 }
-
+/* Cart */
 .cart-container {
-    align-items: center;
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
-    width: 950px;
-    height: max-content;
+    width: 700px;
+    height: 150px;
     padding: 0px 0px 500px 0px;
-    border:100px;
     margin: 0px 0px 500px 1000px;
+    position: absolute;
+    top: 50px;
+    background-color: transparent;
+}
+
+.cart-container:hover .cart {
+    opacity: 1;
+  }
+
+.icon {
+    color: black;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.fa-solid fa-cart-shopping fa-beat-fade:hover {
+    color: #92a8d1;
 }
