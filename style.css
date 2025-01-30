@@ -5,17 +5,31 @@
 }
 body {
     background-color: rgb(247, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 /* header */
-.logo {
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 250px 0px 30px;
+    color: hsla(0, 0%, 100%, 0.847);
+    font-size: .8125rem;
+    font-weight: 300;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, æ–‡æ³‰é©›æ­£é»‘, WenQuanYi Zen Hei, Hiragino Sans GB, å„·é»‘ Pro, LiHei Pro, Heiti TC, å¾®è»Ÿæ­£é»‘é«”, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+}
+
+.container-nav {
+    display: flex;
     background-color: rgb(350, 350, 350); 
     background-color: #ff6f61;
     font-family: 'sans-serif'; 
     padding-right: 15px; 
-    margin: 0px 0px 30px 0px;
+    margin: 0px ;
 }
 
-.flexV-center {
+.header-selection {
     align-items: center;
     display: flex;
     margin-left: auto;
@@ -141,3 +155,205 @@ body {
 .fa-solid fa-cart-shopping fa-beat-fade:hover {
     color: #92a8d1;
 }
+
+/* main */
+.-container- {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #ffffff52;
+    padding: 2px 16px;
+    color: white;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+.full-home-banner {
+    display: flex;
+    justify-content: center;
+    width: 1424;
+    height: 353;
+    margin-top: 32px;
+}
+/* category */
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.section-below-the-fold {
+    min-height: 50rem;
+}
+
+.home-category {
+    background-color: #fff;
+    margin-top: 1.25rem;
+    min-height: 18.875rem;
+}
+
+.kiwii-header-section-home {
+    padding-top: 0;
+}
+
+.kiwi-header-section-header {
+    align-items: center;
+    display: flex;
+    padding-bottom: .625rem;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    height: 3.75rem;
+    padding: 0 1.25rem;
+}
+
+.kiwii-header-section-home .kiwii-header-title {
+    color: rgba(0, 0, 0, .54);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.kiwii-header-title {
+    flex: 1;
+    font-size: 1.25rem;
+    margin-right: 1.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.image-kiwii {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.image-kiwii_item-list-wrapper {
+    height: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+}
+
+element.style {
+    width: 125%;
+    transform: translate(0px, 0px);
+    transition: 500ms;
+}
+
+.home-category .image-carousel__item-list {
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 302px;
+}
+
+.home-category-list .image-carousel__item-list .image-carousel__item {
+    float: none;
+    height: 151px;
+    width: 120px !important;
+}
+
+.home-category-list .image-carousel__item {
+    overflow-x: unset !important;
+}
+
+.home-category-list__category-grid:before {
+    content: "";
+    display: block;
+    padding-top: 126%;
+}
+
+element.style {
+    opacity: 1;
+    visibility: hidden;
+    transform: translateX(calc(-50% + 0px));
+}
+
+.V9bv6U {
+    flex-shrink: 1;
+    height: 70%;
+    margin-top: 10%;
+    width: 70%;
+}
+
+.gvgrjt {
+    color: rgba(0, 0, 0, .8);
+    display: -webkit-box;
+    font-size: .875rem;
+    height: 2.5rem;
+    line-height: 1.25rem;
+    margin-bottom: .625rem;
+    overflow: hidden;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.XToePa {
+    height: 3.125rem;
+    text-align: center;
+    width: 90%;
+}
+
+.image-carousel__item a, .image-carousel__item img {
+    -webkit-user-drag: none;
+}
+/* footer */
