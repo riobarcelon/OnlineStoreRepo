@@ -96,8 +96,8 @@ body {
 }
 
 .search {
-    width: 600px;
-    height: 13px;
+    width: 650px;
+    height: 50px;
     margin: 55px 0px 0px 650px;
     display: flex;
     align-items: center;
@@ -132,7 +132,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    
 }
 
 .cart {
@@ -142,7 +141,7 @@ body {
     flex-direction: column-reverse;
     width: 730px;
     height: 315px;
-    padding: 0px 0px 500px 0px;
+    padding: 160px 0px 500px 0px;
     margin: 0px 0px 500px 1000px;
     position: absolute;
     top: 50px;
@@ -239,92 +238,7 @@ img {
     height: 353;
     margin-top: 32px;
 }
-/* category */
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
 
-.section-below-the-fold {
-    min-height: 50rem;
-}
-
-.home-category {
-    background-color: #fff;
-    margin-top: 1.25rem;
-    min-height: 18.875rem;
-}
-
-.kiwii-header-section-home {
-    padding-top: 0;
-}
-
-.kiwi-header-section-header {
-    align-items: center;
-    display: flex;
-    padding-bottom: .625rem;
-    background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .05);
-    height: 3.75rem;
-    padding: 0 1.25rem;
-}
-
-.kiwii-header-section-home .kiwii-header-title {
-    color: rgba(0, 0, 0, .54);
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.kiwii-header-title {
-    flex: 1;
-    font-size: 1.25rem;
-    margin-right: 1.25rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
-
-.image-kiwii {
-    height: 100%;
-    position: relative;
-    width: 100%;
-}
-
-element.style {
-    width: 125%;
-    transform: translate(0px, 0px);
-    transition: 500ms;
-}
-
-.home-category .image-carousel__item-list {
-    align-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 302px;
-}
-
-.home-category-list .image-carousel__item-list .image-carousel__item {
-    float: none;
-    height: 151px;
-    width: 120px !important;
-}
-
-.home-category-list .image-carousel__item {
-    overflow-x: unset !important;
-}
-
-.home-category-list__category-grid:before {
-    content: "";
-    display: block;
-    padding-top: 126%;
-}
-
-element.style {
-    opacity: 1;
-    visibility: hidden;
-    transform: translateX(calc(-50% + 0px));
-}
 /* coupon */
 .class-container {
     width: 100%;
